@@ -10,6 +10,11 @@ import ContratosCiviles from './pages/servicios/ContratosCiviles';
 import PropiedadBienes from './pages/servicios/PropiedadBienes';
 import SucesionesHerencias from './pages/servicios/SucesionesHerencias';
 import DerechoFamilia from './pages/servicios/DerechoFamilia';
+import NuevoIdeal from './pages/municipios/NuevoIdeal';
+import ContratosCivilesNI from './pages/municipios/servicios/ContratosCivilesNI';
+import PropiedadBienesNI from './pages/municipios/servicios/PropiedadBienesNI';
+import SucesionesHerenciasNI from './pages/municipios/servicios/SucesionesHerenciasNI';
+import DerechoFamiliaNI from './pages/municipios/servicios/DerechoFamiliaNI';
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -24,6 +29,13 @@ function AnimatedRoutes() {
         <Route path="/servicios/propiedad-bienes" element={<PropiedadBienes />} />
         <Route path="/servicios/sucesiones-herencias" element={<SucesionesHerencias />} />
         <Route path="/servicios/derecho-familia" element={<DerechoFamilia />} />
+        <Route path="/municipios/nuevo-ideal" element={<NuevoIdeal />} />
+
+        {/* Nuevo Ideal Servicios */}
+        <Route path="/municipios/nuevo-ideal/servicios/contratos-civiles" element={<ContratosCivilesNI />} />
+        <Route path="/municipios/nuevo-ideal/servicios/propiedad-bienes" element={<PropiedadBienesNI />} />
+        <Route path="/municipios/nuevo-ideal/servicios/sucesiones-herencias" element={<SucesionesHerenciasNI />} />
+        <Route path="/municipios/nuevo-ideal/servicios/derecho-familia" element={<DerechoFamiliaNI />} />
       </Routes>
     </AnimatePresence>
   );
