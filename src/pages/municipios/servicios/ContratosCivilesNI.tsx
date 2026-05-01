@@ -9,7 +9,7 @@ const schemaJSON = {
     '@type': 'LegalService',
     name: 'Asesoría Jurídica e Inmobiliaria BCC - Nuevo Ideal',
     url: 'https://bccdespachojuridico.com/municipios/nuevo-ideal/servicios/contratos-civiles',
-    telephone: '+526181492511',
+    telephone: '+526778711030',
     address: {
         '@type': 'PostalAddress',
         streetAddress: 'Emiliano Zapata 707, Zona Centro',
@@ -49,7 +49,7 @@ const schemaJSON = {
                 name: '¿Cuánto cuesta que BCC me redacte un contrato en Nuevo Ideal?',
                 acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'El costo depende del tipo y complejidad del contrato. Contáctanos al 618 149 2511 para recibir un presupuesto claro antes de comprometerte.',
+                    text: 'El costo depende del tipo y complejidad del contrato. Contáctanos al 677 871 1030 para recibir un presupuesto claro antes de comprometerte.',
                 },
             },
         ],
@@ -159,7 +159,7 @@ const faqs = [
     },
     {
         q: '¿Cuánto cuesta que BCC me redacte un contrato?',
-        a: 'El costo depende del tipo y complejidad del contrato. Contáctanos al 618 149 2511 para darte un presupuesto claro antes de comprometerte.',
+        a: 'El costo depende del tipo y complejidad del contrato. Contáctanos al 677 871 1030 para darte un presupuesto claro antes de comprometerte.',
     },
     {
         q: '¿Puedo pedirles que revisen un contrato que ya me presentaron?',
@@ -289,7 +289,7 @@ export default function ContratosCivilesNI() {
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4 mt-8">
                                     <a
-                                        href="https://wa.me/5216181492511"
+                                        href="https://wa.me/5216778711030"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center justify-center px-7 py-3.5 bg-brand-red text-white rounded-xl font-semibold shadow-md hover:bg-red-700 hover:shadow-lg transition-all duration-300"
@@ -458,7 +458,7 @@ export default function ContratosCivilesNI() {
                                     <p className="text-sm text-red-800 font-medium">
                                         Si tu contrato no cumple con varios de estos puntos, es mejor revisarlo antes
                                         de firmarlo.{' '}
-                                        <a href="https://wa.me/5216181492511" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
+                                        <a href="https://wa.me/5216778711030" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline">
                                             Contáctanos aquí.
                                         </a>
                                     </p>
@@ -497,12 +497,12 @@ export default function ContratosCivilesNI() {
                                 </p>
                                 <div className="text-white mb-8 space-y-1 text-base">
                                     <p>📍 Emiliano Zapata 707, Zona Centro, 34410 Nuevo Ideal, Dgo.</p>
-                                    <p>📞 618 149 2511</p>
+                                    <p>📞 677 871 1030</p>
                                     <p>🌐 bccdespachojuridico.com</p>
                                 </div>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                     <a
-                                        href="https://wa.me/5216181492511"
+                                        href="https://wa.me/5216778711030"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center justify-center px-8 py-4 bg-black text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300"

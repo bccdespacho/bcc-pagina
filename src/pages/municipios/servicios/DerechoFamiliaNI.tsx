@@ -9,7 +9,7 @@ const schemaJSON = {
     '@type': 'LegalService',
     name: 'Asesoría Jurídica e Inmobiliaria BCC - Nuevo Ideal',
     url: 'https://bccdespachojuridico.com/municipios/nuevo-ideal/servicios/derecho-familia',
-    telephone: '+526181492511',
+    telephone: '+526778711030',
     address: {
         '@type': 'PostalAddress',
         streetAddress: 'Emiliano Zapata 707, Zona Centro',
@@ -294,7 +294,7 @@ export default function DerechoFamiliaNI() {
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4">
                                     <a
-                                        href="https://wa.me/5216181492511"
+                                        href="https://wa.me/5216778711030"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center justify-center px-7 py-3.5 bg-brand-red text-white rounded-xl font-semibold shadow-md hover:bg-red-700 hover:shadow-lg transition-all duration-300"
@@ -503,12 +503,12 @@ export default function DerechoFamiliaNI() {
                                 </p>
                                 <div className="text-white mb-8 space-y-1 text-base">
                                     <p>📍 Emiliano Zapata 707, Zona Centro, 34410 Nuevo Ideal, Dgo.</p>
-                                    <p>📞 618 149 2511</p>
+                                    <p>📞 677 871 1030</p>
                                     <p>🌐 bccdespachojuridico.com</p>
                                 </div>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                     <a
-                                        href="https://wa.me/5216181492511"
+                                        href="https://wa.me/5216778711030"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center justify-center px-8 py-4 bg-black text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300"

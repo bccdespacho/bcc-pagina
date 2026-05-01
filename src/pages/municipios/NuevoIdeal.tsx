@@ -19,7 +19,7 @@ const faqs = [
     },
     {
         q: '¿Cómo puedo agendar una consulta?',
-        a: 'Puede llamarnos directamente al 618 149 2511 o visitarnos en nuestra oficina en la Zona Centro de Nuevo Ideal.',
+        a: 'Puede llamarnos directamente al 677 871 1030 o visitarnos en nuestra oficina en la Zona Centro de Nuevo Ideal.',
     },
 ];
 
@@ -60,7 +60,7 @@ export default function NuevoIdeal() {
                 "@type": "LegalService",
                 "name": "Asesoría Jurídica e Inmobiliaria BCC - Nuevo Ideal",
                 "url": "https://bccdespachojuridico.com/municipios/nuevo-ideal",
-                "telephone": "+526181492511",
+                "telephone": "+526778711030",
                 "address": {
                     "@type": "PostalAddress",
                     "streetAddress": "Emiliano Zapata 707, Zona Centro",
@@ -113,7 +113,7 @@ export default function NuevoIdeal() {
 
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                                     <a
-                                        href="https://wa.me/5216181492511"
+                                        href="https://wa.me/5216778711030"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="btn-primary w-full sm:w-auto"
@@ -121,10 +121,10 @@ export default function NuevoIdeal() {
                                         <span className="font-semibold">Contactar por WhatsApp</span>
                                     </a>
                                     <a
-                                        href="tel:+526181492511"
+                                        href="tel:+526778711030"
                                         className="btn-secondary w-full sm:w-auto flex items-center justify-center gap-2"
                                     >
-                                        <span className="font-semibold">Llamar: 618 149 2511</span>
+                                        <span className="font-semibold">Llamar: 677 871 1030</span>
                                     </a>
                                 </div>
                             </motion.div>
@@ -203,7 +203,7 @@ export default function NuevoIdeal() {
                                                 <span className="text-xl">📞</span>
                                                 <p>
                                                     <strong className="text-white block mb-1">Teléfono:</strong>
-                                                    <a href="tel:+526181492511" className="hover:text-brand-red transition-colors">618 149 2511</a>
+                                                    <a href="tel:+526778711030" className="hover:text-brand-red transition-colors">677 871 1030</a>
                                                 </p>
                                             </li>
                                         </ul>
