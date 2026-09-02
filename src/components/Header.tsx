@@ -8,6 +8,7 @@ const servicioLinks = [
   { path: '/servicios/propiedad-bienes', label: 'Propiedad y Bienes', hub: false },
   { path: '/servicios/sucesiones-herencias', label: 'Sucesiones y Herencias', hub: false },
   { path: '/servicios/derecho-familia', label: 'Derecho de Familia', hub: false },
+  { path: '/servicios/amparos', label: 'Juicio de Amparo', hub: false },
 ];
 
 export default function Header() {

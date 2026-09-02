@@ -26,6 +26,11 @@ const specialties = [
     who: 'Parejas, padres y madres que enfrentan divorcios, custodias o pensiones',
     href: '/servicios/derecho-familia',
   },
+  {
+    service: 'Juicio de Amparo',
+    who: 'Personas y empresas afectadas por una resolución o un acto de autoridad',
+    href: '/servicios/amparos',
+  },
 ];
 
 const values = [

@@ -27,6 +27,12 @@ const services = [
       'Divorcios, custodia de menores, pensiones alimenticias y trámites de estado civil.',
     href: '/servicios/derecho-familia',
   },
+  {
+    title: 'Juicio de Amparo',
+    description:
+      'Amparos directos e indirectos contra actos de autoridad, con suspensión del acto reclamado.',
+    href: '/servicios/amparos',
+  },
 ];
 
 const containerVariants: Variants = {
@@ -140,8 +146,16 @@ export default function Home() {
                 viewport={{ once: true, margin: '-60px' }}
                 className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto"
               >
-                {services.map((service) => (
-                  <motion.div key={service.href} variants={cardVariants}>
+                {services.map((service, i) => (
+                  <motion.div
+                    key={service.href}
+                    variants={cardVariants}
+                    className={
+                      services.length % 2 === 1 && i === services.length - 1
+                        ? 'md:col-span-2'
+                        : undefined
+                    }
+                  >
                     <Link
                       to={service.href}
                       className="block service-card group h-full hover:border-brand-red border-2 border-transparent rounded-2xl transition-all duration-300"

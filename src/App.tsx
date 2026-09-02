@@ -10,6 +10,7 @@ import ContratosCiviles from './pages/servicios/ContratosCiviles';
 import PropiedadBienes from './pages/servicios/PropiedadBienes';
 import SucesionesHerencias from './pages/servicios/SucesionesHerencias';
 import DerechoFamilia from './pages/servicios/DerechoFamilia';
+import Amparos from './pages/servicios/Amparos';
 import NuevoIdeal from './pages/municipios/NuevoIdeal';
 import ContratosCivilesNI from './pages/municipios/servicios/ContratosCivilesNI';
 import PropiedadBienesNI from './pages/municipios/servicios/PropiedadBienesNI';
@@ -29,6 +30,7 @@ function AnimatedRoutes() {
         <Route path="/servicios/propiedad-bienes" element={<PropiedadBienes />} />
         <Route path="/servicios/sucesiones-herencias" element={<SucesionesHerencias />} />
         <Route path="/servicios/derecho-familia" element={<DerechoFamilia />} />
+        <Route path="/servicios/amparos" element={<Amparos />} />
         <Route path="/municipios/nuevo-ideal" element={<NuevoIdeal />} />
 
         {/* Nuevo Ideal Servicios */}

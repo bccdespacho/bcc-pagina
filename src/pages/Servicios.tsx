@@ -30,10 +30,16 @@ const serviceAreas = [
         body: 'Los asuntos de familia son los más delicados de todos porque involucran emociones, hijos y decisiones que impactan el futuro de todos. En BCC manejamos divorcios, custodias, pensiones alimenticias, reconocimiento de paternidad, adopciones y otros asuntos familiares con la discreción y sensibilidad que merecen.',
         aside: 'Siempre buscamos la solución más ágil y menos traumática posible, pero cuando hay que defender tus derechos en un juzgado, también estamos preparados para hacerlo.',
     },
+    {
+        h3: 'Juicio de Amparo',
+        href: '/servicios/amparos',
+        body: 'Cuando una autoridad, un juez o una dependencia emite una resolución que te perjudica, el amparo es la vía para que la justicia federal la revise. En BCC tramitamos amparos directos e indirectos en materia civil, mercantil, familiar y administrativa, y solicitamos la suspensión del acto reclamado para frenar el daño mientras se resuelve tu caso.',
+        aside: 'Los plazos del amparo son cortos y empiezan a correr desde que te notifican. Si acabas de recibir una resolución que te afecta, consúltanos cuanto antes para revisar si todavía estás a tiempo.',
+    },
 ];
 
 const comparativa = [
-    { feature: 'Enfoque', generalista: 'Amplio, varios temas', bcc: 'Civil y familiar en Durango' },
+    { feature: 'Enfoque', generalista: 'Amplio, varios temas', bcc: 'Civil, familiar y amparo en Durango' },
     { feature: 'Conocimiento local', generalista: 'Variable', bcc: 'Juzgados, notarías y registros de Durango' },
     { feature: 'Profundidad en el caso', generalista: 'Media', bcc: 'Alta, tu caso se trabaja a fondo' },
     { feature: 'Comunicación', generalista: 'Depende del despacho', bcc: 'Directa, constante y sin intermediarios' },
@@ -166,7 +172,8 @@ export default function Servicios() {
                                 </p>
                                 <p className="text-lg text-gray-600 leading-relaxed">
                                     Si tienes un conflicto por una propiedad, necesitas formalizar un contrato,
-                                    estás pasando por una separación o debes gestionar la herencia de un familiar,
+                                    estás pasando por una separación, debes gestionar la herencia de un familiar o
+                                    necesitas impugnar una resolución de autoridad con un juicio de amparo,
                                     estás en el lugar correcto.
                                 </p>
                             </motion.div>
@@ -189,7 +196,7 @@ export default function Servicios() {
                                     ayudarte a identificar la naturaleza de tu problema y qué rama del derecho aplica.
                                 </p>
                                 <p className="text-gray-600 mb-5">
-                                    La mayoría de los casos que atendemos caen en alguna de estas cuatro categorías:
+                                    La mayoría de los casos que atendemos caen en alguna de estas cinco categorías:
                                 </p>
                                 <ul className="space-y-3">
                                     {[
@@ -197,6 +204,7 @@ export default function Servicios() {
                                         { text: 'Tengo un asunto con una propiedad o terreno, compra, venta, regularización o conflicto', href: '/servicios/propiedad-bienes' },
                                         { text: 'Falleció un familiar y hay que repartir o gestionar su patrimonio', href: '/servicios/sucesiones-herencias' },
                                         { text: 'Tengo un asunto familiar, divorcio, custodia, pensión alimenticia u otro', href: '/servicios/derecho-familia' },
+                                        { text: 'Una autoridad o un juez emitió una resolución que me perjudica y quiero impugnarla', href: '/servicios/amparos' },
                                     ].map((item) => (
                                         <li key={item.href}>
                                             <Link
